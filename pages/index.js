@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Header from "../components/Header";
 
 export default function Index() {
     return (
         <div>
-            <Link href="/about"><a>About</a></Link>
+            <Header />
             <h1>Hello from Index Page</h1>
         </div>
     )
