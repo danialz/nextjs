@@ -6,7 +6,7 @@ const headerStyle = {
 
 const Header = () => {
     return (<div>
-        <Link href="/" style={headerStyle}><a>Home</a></Link>
+        <Link href="/"><a style={headerStyle}>Home</a></Link>
         <Link href="/about"><a style={headerStyle}>About</a></Link>
     </div>)
 }

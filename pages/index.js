@@ -1,10 +1,11 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 export default function Index() {
     return (
-        <div>
-            <Header />
-            <h1>Hello from Index Page</h1>
-        </div>
+        <Layout>
+            <div>
+                <h1>Hello from Index Page</h1>
+            </div>
+        </Layout>
     )
 }
